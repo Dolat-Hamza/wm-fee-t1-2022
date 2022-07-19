@@ -13,7 +13,15 @@ First you need to install the dependencies:
 #Then you can run the project:
 
 "npm run dev"
+
+To View The Project In The Browser:
+Go To:
 ```
+## [View In Browser](http://localhost:3000)
+
+
+## You can also view the project in the browser:
+## [View Deployed Version ](https://care-technical-test.vercel.app/)
 
 ## Getting Started
 
