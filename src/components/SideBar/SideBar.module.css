@@ -52,11 +52,21 @@
     transform: scale(1.04);
     transition: all 0.3s ease-in-out;
 }
+.sideBar_item:active{
+    color: #6e0a3c;
+    cursor: pointer;
+}
 
 .icon {
     color: white;
     font-size: 1.5rem;
     margin-left: 1rem;
+}
+.icon:hover{
+    color: #c995b0;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 0.3s ease-in-out;
 }
 
 .sideBar_item:hover {
