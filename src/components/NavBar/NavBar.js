@@ -1,13 +1,15 @@
 import React from "react";
 import styles from './NavBar.module.css';
-import {MenuOutlined, SearchOutlined} from "@ant-design/icons";
+import {SearchOutlined} from "@ant-design/icons";
+import MenuButton from "../MenuButton/MenuButton";
 
 
-const NavBar = (props) => {
+const NavBar = ({sidebarHandler}) => {
+
     return (
         <div className={styles.main_container}>
             <div className={styles.navbar_container}>
-                <MenuOutlined className={styles.menu_icon} onClick={props.sidebar}/>
+                <MenuButton className={styles.menu_icon} click={sidebarHandler}/>
             </div>
             <div className={styles.navbar_item_container}>
                 <div className={styles.navbar_item_container_1}>
@@ -18,8 +20,9 @@ const NavBar = (props) => {
 
                 </div>
                 <div className={styles.divider}></div>
-                <div>
-                    <input type={"text"} placeholder={"Search"} className={styles.navbar_search}/><SearchOutlined/>
+                <div className={styles.searchBar}>
+                    <input type={"text"} placeholder={"Search"} className={styles.navbar_search}/><SearchOutlined
+                    className={styles.icon}/>
                 </div>
             </div>
         </div>
@@ -27,3 +30,5 @@ const NavBar = (props) => {
     )
 }
 export default NavBar;
+
+

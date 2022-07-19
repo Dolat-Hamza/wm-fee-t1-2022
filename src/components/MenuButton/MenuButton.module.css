@@ -1,0 +1,22 @@
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3vh;
+    width: 3vh;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn_line {
+    background: white;
+    width: 4vh;
+    height: 2px;
+}

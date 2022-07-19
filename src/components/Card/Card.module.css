@@ -1,0 +1,148 @@
+@media (min-width: 0px) {
+    .main_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_container:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: all 1s ease-in-out;
+    }
+
+    .SubContainers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#343434), to(#7a7777));
+        border-radius: 1rem;
+        width: 20vh;
+        height: 25vh;
+        padding: 0rem 1rem;
+        color: white;
+    }
+
+    .textt {
+        font-size: 4rem;
+        font-weight: 550;
+        margin-bottom: 1rem;
+    }
+
+    .textt:hover {
+        cursor: pointer;
+        color: #ffc107;
+
+    }
+
+    .divider {
+        flex: 1;
+    }
+
+    .SubContainers:hover {
+        cursor: pointer;
+    }
+
+    .TopSection {
+        font-size: 50px;
+        margin: 0.5rem 0.2rem;
+        text-transform: capitalize;
+    }
+
+    .TopSection:hover {
+        cursor: pointer;
+        color: #ffc107;
+
+    }
+
+    .countSection {
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .dotSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .dot_place {
+        width: 0.6rem;
+        height: 0.6rem;
+        background-color: white;
+        border-radius: 4rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (min-width: 280px) {
+    .SubContainers {
+        width: 30vh;
+        height: 35vh;
+    }
+
+    .TopSection {
+        font-size: 20px;
+    }
+
+    .countSection {
+        font-size: 1rem;
+    }
+
+    .dot_place {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+
+    .textt {
+        font-size: 4rem;
+        font-weight: 550;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 414px) {
+    .SubContainers {
+        width: 40vh;
+        height: 45vh;
+    }
+
+    .TopSection {
+        font-size: 20px;
+    }
+
+    .countSection {
+        font-size: 1rem;
+    }
+
+    .dot_place {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .SubContainers {
+        width: 50vh;
+        height: 55vh;
+    }
+
+    .TopSection {
+        font-size: 1.7rem;
+    }
+
+    .countSection {
+        font-size: 1rem;
+    }
+
+    .dot_place {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+
+    .textt {
+        font-size: 4rem;
+        font-weight: 550;
+        margin-bottom: 1rem;
+    }
+}
