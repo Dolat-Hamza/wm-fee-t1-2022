@@ -59,7 +59,8 @@
     transform: scale(1.04);
     transition: all 0.3s ease-in-out;
 }
-.navbar_item:active{
+
+.navbar_item:active {
     color: #6e0a3c;
     cursor: pointer;
 
@@ -82,7 +83,8 @@
 
 
 }
-.icon:hover{
+
+.icon:hover {
     color: #c995b0;
     cursor: pointer;
     transform: scale(1.04);
