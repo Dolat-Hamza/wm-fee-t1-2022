@@ -1,0 +1,57 @@
+@media (min-width: 280px) {
+    .instruction_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 28vh;
+        margin-bottom: 18px;
+    }
+
+
+    .instruction_text {
+        font-size: 0.9rem;
+        line-height: 0;
+    }
+    .instruction_text:hover{
+        color: #ffc107;
+        transform: scale(1.04);
+        transition: all 0.3s ease-in-out;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
+
+@media (min-width: 414px) {
+    .instruction_container {
+        padding-top: 23vh;
+    }
+
+    .instruction_text {
+        font-size: 0.9rem;
+    }
+    .instruction_text:hover{
+        color: #ffc107;
+        transform: scale(1.04);
+        transition: all 0.3s ease-in-out;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
+
+@media (min-width: 768px) {
+    .instruction_container {
+        padding-top: 23vh;
+    }
+
+    .instruction_text {
+        font-size: 1.2rem;
+    }
+    .instruction_text:hover{
+        color: #ffc107;
+        transform: scale(1.04);
+        transition: all 0.3s ease-in-out;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
+
