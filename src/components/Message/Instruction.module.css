@@ -12,7 +12,8 @@
         font-size: 0.9rem;
         line-height: 0;
     }
-    .instruction_text:hover{
+
+    .instruction_text:hover {
         color: #ffc107;
         transform: scale(1.04);
         transition: all 0.3s ease-in-out;
@@ -29,7 +30,8 @@
     .instruction_text {
         font-size: 0.9rem;
     }
-    .instruction_text:hover{
+
+    .instruction_text:hover {
         color: #ffc107;
         transform: scale(1.04);
         transition: all 0.3s ease-in-out;
@@ -46,7 +48,8 @@
     .instruction_text {
         font-size: 1.2rem;
     }
-    .instruction_text:hover{
+
+    .instruction_text:hover {
         color: #ffc107;
         transform: scale(1.04);
         transition: all 0.3s ease-in-out;
